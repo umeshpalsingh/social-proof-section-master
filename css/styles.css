@@ -1,0 +1,194 @@
+body {
+  padding: 6% 12%;
+  font-size: 15px;
+  font-family: 'Spartan', sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: hsl(300, 43%, 22%);
+  width: 30%;
+}
+
+.tittle-paragraph {
+  font-weight: 500;
+  color: hsl(303, 10%, 53%);
+  width: 40%;
+  position: relative;
+  bottom: 15px;
+  line-height: 1.5;
+}
+
+.reviews {
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 5px;
+  margin: 15px;
+  padding-left: 20px;
+  padding-right: 50px;
+  position: absolute;
+  top: 120px;
+  right: 350px;
+}
+
+.guru {
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 5px;
+  margin: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: absolute;
+  top: 185px;
+  right: 300px;
+}
+
+.besttech {
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 5px;
+  margin: 15px;
+  padding-left: 20px;
+  padding-right: 50px;
+  position: absolute;
+  top: 250px;
+  right: 250px;
+}
+
+.rating-paragraph {
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+  font-size: 13px;
+  margin: 15px;
+}
+
+.stars {
+  padding: 2px;
+}
+
+.buyer-1 {
+  background-color: hsl(300, 43%, 22%);
+  height: 180px;
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+  right: 20px;
+}
+
+.buyer-2 {
+  background-color: hsl(300, 43%, 22%);
+  height: 180px;
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+  right: 40px;
+  top: 15px;
+}
+
+.buyer-3 {
+  background-color: hsl(300, 43%, 22%);
+  height: 180px;
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+  right: 60px;
+  top: 30px;
+}
+
+.buyers-images {
+  border-radius: 100%;
+  height: 40px;
+  width: 40px;
+  padding: 10px;
+}
+
+.buyers-names {
+  font-weight: 700;
+  color: hsl(300, 24%, 96%);
+  font-size: 13px;
+  position: relative;
+  top: 5px;
+}
+
+.buyers-verified {
+  font-weight: 400;
+  color: hsl(333, 80%, 67%);
+  font-size: 12px;
+  position: relative;
+  bottom: 5px;
+}
+
+.buyers-paragraph {
+  color: hsl(300, 24%, 96%);
+  font-size: 12px;
+  line-height: 1.6;
+  width: 90%;
+  position: relative;
+  left: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    padding: 2%;
+  }
+
+  h1 {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 60px;
+    line-height: 1;
+  }
+
+  .tittle-paragraph {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    width: 80%;
+    line-height: 1.6;
+  }
+
+  .reviews {
+    position: relative;
+    top: 50px;
+    left: 10px;
+  }
+
+  .guru {
+    position: relative;
+    top: 50px;
+    left: 10px;
+  }
+
+  .besttech {
+    position: relative;
+    top: 50px;
+    left: 10px;
+  }
+
+  .buyer-1 {
+    position: relative;
+    left: 5px;
+    top: 60px;
+    width: 370px;
+  }
+
+  .buyer-2 {
+    position: relative;
+    right: 445px;
+    top: 305px;
+    width: 370px;
+  }
+
+  .buyer-3 {
+    position: relative;
+    right: 900px;
+    top: 550px;
+    width: 370px;
+  }
+}
